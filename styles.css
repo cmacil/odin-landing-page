@@ -23,3 +23,36 @@ body {
     align-items: center;
     padding: 10px;
 }
+
+.intro {
+    display: flex;
+    background-color: #1F2937;
+    padding: 100px 10px;
+    justify-content: space-between;
+}
+
+.intro-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.intro-title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.intro-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.intro button {
+    background-color: #3882F6;
+    border-radius: 8px;
+    border: none;
+    font-size: 18px;
+    color: white;
+    padding: 10px 20px;
+}

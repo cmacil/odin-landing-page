@@ -57,3 +57,32 @@ body {
     padding: 10px 20px;
     font-weight: 700;
 }
+
+.images-title {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    padding: 20px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-bottom: 40px;
+}
+
+.member-image {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    max-width: 200px;
+}
+
+.member-image img {
+    max-width: 200px;
+}

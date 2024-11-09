@@ -108,3 +108,33 @@ body {
     font-weight: 700;
     align-self: flex-end;
 }
+
+.action {
+    background-color: #3882F6;
+    color: white;
+    margin: 60px 400px;
+    padding: 50px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.action-call {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.action-message {
+    font-size: 20px;
+}
+
+.action-button button{
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 20px;
+    color: white;
+    padding: 5px 20px;
+    font-weight: 700;
+}

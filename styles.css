@@ -138,3 +138,11 @@ body {
     padding: 5px 20px;
     font-weight: 700;
 }
+
+.footer {
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #F9FAF8; 
+    text-align: center;
+    padding: 40px;
+}

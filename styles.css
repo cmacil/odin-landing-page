@@ -21,13 +21,13 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 10px 100px;
 }
 
 .intro {
     display: flex;
     background-color: #1F2937;
-    padding: 100px 10px;
+    padding: 100px 100px;
     justify-content: space-between;
 }
 
@@ -85,4 +85,26 @@ body {
 
 .member-image img {
     max-width: 200px;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    max-width: 900px;
+    margin: auto;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-author {
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    align-self: flex-end;
 }
